@@ -154,14 +154,14 @@ analysis:
 如果使用本程序发表研究，请引用：
 
 ```
-Rice Alkaline Resistance Transcriptome Analysis Pipeline. (2026). GitHub: https://github.com/yourusername/rice-alkaline-resistance-analysis
+Rice Alkaline Resistance Transcriptome Analysis Pipeline. (2026). GitHub: https://github.com/heihuqi333/rice-alkaline-resistance-analysis
 ```
 
 ## 联系方式
 
 如有问题或建议，请联系：
 - 邮箱: 1751200760@qq.com
-- GitHub: https://github.com/yourusername
+- GitHub: https://github.com/heihuqi333-beep
 
 ---
 
