@@ -1,0 +1,33 @@
+# 水稻转录组耐碱性分析配置文件
+
+# 输出目录
+output_dir: output
+
+# 样本信息
+sample_info:
+  control_1:
+    fastq1: D:\skills doc\data\GSE51616_RAW\GSM1249394_Young_leaves_of_HJ19-biological_rep1.CEL.gz
+    fastq2: D:\skills doc\data\GSE51616_RAW\GSM1249396_Young_leaves_of_OX-Ghd7HJ19-biological_rep1.CEL.gz
+    group: control
+  control_2:
+    fastq1: /path/to/control_2_R1.fastq.gz
+    fastq2: /path/to/control_2_R2.fastq.gz
+    group: control
+  treated_1:
+    fastq1: /path/to/treated_1_R1.fastq.gz
+    fastq2: /path/to/treated_1_R2.fastq.gz
+    group: treated
+  treated_2:
+    fastq1: /path/to/treated_2_R1.fastq.gz
+    fastq2: /path/to/treated_2_R2.fastq.gz
+    group: treated
+
+# 参考基因组信息	reference:
+  genome_index: /path/to/hisat2_index/rice
+  gtf_file: /path/to/rice_gtf.gtf
+
+# 分析参数
+analysis:
+  threads: 4  # 线程数
+  qvalue_threshold: 0.05  # 差异表达阈值
+  fold_change_threshold: 2  # 差异表达倍数阈值
